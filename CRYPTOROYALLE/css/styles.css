@@ -1,0 +1,64 @@
+:root {
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #38cc0b;
+    --cor-fundo: #000000;
+    --cor-texto: #ffffff;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+  }
+  
+  header, footer {
+    background-color: var(--cor-secundaria);
+    color: #000000;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: var(--cor-texto);
+    text-decoration: none;
+  }
+  
+  h1, h2, h3 {
+    color: var(--cor-primaria);
+  }
+  
+  a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+  }
+  
+  .container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+  }
+  
+  .produtos {
+    height: 450vh;
+  }
+
+
+  .sobre {
+    height: 200vh;
+  }
